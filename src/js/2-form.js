@@ -45,5 +45,3 @@ function sendForm(event) {
   refs.formData = { email: '', message: '' };
   refs.form.reset();
 }
-
-console.log(refs.formData.message.length);
